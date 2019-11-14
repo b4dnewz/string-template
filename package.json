@@ -1,0 +1,46 @@
+{
+    "name": "@b4dnewz/string-template",
+    "version": "0.0.1",
+    "description": "A utility to format strings with many options",
+    "main": "lib/index.js",
+    "types": "lib/index.d.ts",
+    "files": [
+        "lib"
+    ],
+    "scripts": {
+        "prepublishOnly": "npm run build",
+        "pretest": "npm run lint",
+        "prebuild": "npm run test",
+        "lint": "tslint -p . --fix",
+        "test": "jest",
+        "test:cover": "jest --coverage",
+        "build": "tsc --build"
+    },
+    "author": {
+        "name": "b4dnewz",
+        "email": "filippo@codekraft.it",
+        "url": "https://b4dnewz.github.io/"
+    },
+    "repository": "b4dnewz/string-template",
+    "license": "MIT",
+    "keywords": [
+        "string",
+        "template",
+        "string-template",
+        "utility",
+        "string-utility",
+        "templating",
+        "replacement"
+    ],
+    "devDependencies": {
+        "@types/jest": "^24.0.23",
+        "coveralls": "^3.0.7",
+        "jest": "^24.9.0",
+        "ts-jest": "^24.1.0",
+        "tslint": "^5.20.1",
+        "typescript": "^3.7.2"
+    },
+    "publishConfig": {
+        "access": "public"
+    }
+}
