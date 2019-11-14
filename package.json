@@ -26,10 +26,13 @@
     "keywords": [
         "string",
         "template",
+        "string-formatter",
+        "string-manipulation",
         "string-template",
         "utility",
         "string-utility",
         "templating",
+        "template-engine",
         "replacement"
     ],
     "devDependencies": {
